@@ -4,8 +4,8 @@
         {
             "bbmeta": "ncnf v1 n1",
             "name": "Server",
-            "description": "Welcome to my server!",
-            "password": "123asdasd",
+            "description": "Powered by Cubecoders AMP!",
+            "password": "",
             "game port": 30100
         }
     ],
