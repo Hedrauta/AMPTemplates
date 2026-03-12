@@ -1,0 +1,46 @@
+[
+    {
+        "UpdateStageName": "Downloading Files",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "3557220",
+        "UpdateSourceArgs": "2941660",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Create Archean-Data directory",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/mkdir",
+        "UpdateSourceArgs": "-p ./Archean-Data",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Create Archean-Data directory",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "cmd.exe",
+        "UpdateSourceArgs": "/c mkdir .\\\\Archean-Data",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Config File Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Hedrauta/AMPTemplates/refs/heads/main/archean_server.ini",
+        "UpdateSourceTarget": "/Archean-Data/server.ini",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": true
+    }
+]

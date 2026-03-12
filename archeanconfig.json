@@ -1,0 +1,142 @@
+[
+  {
+    "DisplayName": "Server Name",
+    "Description": "Der öffentliche Name des Servers in der Serverliste.",
+    "Category": "Server",
+    "FieldName": "ServerName",
+    "InputType": "text",
+    "ParamFieldName": "server.server_public_name",
+    "DefaultValue": "My Archean Server"
+  },
+  {
+    "DisplayName": "Max. Spieler",
+    "Description": "Maximale Anzahl gleichzeitiger Spieler.",
+    "Category": "Server",
+    "FieldName": "MaxPlayers",
+    "InputType": "number",
+    "ParamFieldName": "server.max_simultaneous_players",
+    "DefaultValue": "16",
+    "minValue": "1",
+    "maxValue": "64"
+  },
+  {
+    "DisplayName": "Server Passwort",
+    "Description": "Leer lassen für keinen Passwortschutz.",
+    "Category": "Server",
+    "FieldName": "ServerPassword",
+    "InputType": "password",
+    "ParamFieldName": "server.password",
+    "DefaultValue": ""
+  },
+  {
+    "DisplayName": "Server Online (öffentlich)",
+    "Description": "Ob der Server in der öffentlichen Serverliste erscheinen soll.",
+    "Category": "Server",
+    "FieldName": "ServerOnline",
+    "InputType": "checkbox",
+    "ParamFieldName": "server.server_online",
+    "EnumValues": { "False": "no", "True": "yes" },
+    "DefaultValue": "True"
+  },
+  {
+    "DisplayName": "Remote Verbindungen erlauben",
+    "Description": "Erlaubt externen Spielern, sich zu verbinden.",
+    "Category": "Server",
+    "FieldName": "AcceptRemoteConnections",
+    "InputType": "checkbox",
+    "ParamFieldName": "server.accept_remote_connections",
+    "EnumValues": { "False": "no", "True": "yes" },
+    "DefaultValue": "True"
+  },
+  {
+    "DisplayName": "Externer Mods-Ordner",
+    "Description": "Optionaler Pfad zu einem externen Mods-Verzeichnis.",
+    "Category": "Server",
+    "FieldName": "ExternalModsDir",
+    "InputType": "text",
+    "ParamFieldName": "server.external_mods_dir",
+    "DefaultValue": ""
+  },
+  {
+    "DisplayName": "Spielport",
+    "Description": "Der UDP/TCP-Port auf dem der Server lauscht.",
+    "Category": "Netzwerk",
+    "FieldName": "GamePort",
+    "InputType": "number",
+    "ParamFieldName": "networking.listen_port",
+    "DefaultValue": "8881"
+  },
+  {
+    "DisplayName": "Automatische Blacklist",
+    "Description": "Spieler mit schlechtem Verhalten automatisch sperren.",
+    "Category": "Netzwerk",
+    "FieldName": "AutoBlacklist",
+    "InputType": "checkbox",
+    "ParamFieldName": "networking.automatic_blacklist",
+    "EnumValues": { "False": "no", "True": "yes" },
+    "DefaultValue": "False"
+  },
+  {
+    "DisplayName": "Spawn Location",
+    "Description": "Startort für neue Spieler (z.B. 'earth').",
+    "Category": "Spiel",
+    "FieldName": "Spawn",
+    "InputType": "text",
+    "ParamFieldName": "game.spawn",
+    "DefaultValue": "earth"
+  },
+  {
+    "DisplayName": "Welt",
+    "Description": "Name der zu ladenden Welt (leer = Standard).",
+    "Category": "Spiel",
+    "FieldName": "World",
+    "InputType": "text",
+    "ParamFieldName": "game.world",
+    "DefaultValue": ""
+  },
+  {
+    "DisplayName": "Autosave Intervall",
+    "Description": "Wie oft die Welt automatisch gespeichert wird.",
+    "Category": "Performance",
+    "FieldName": "AutoSaveInterval",
+    "InputType": "number",
+    "ParamFieldName": "performance.auto_save_interval_seconds",
+    "DefaultValue": "30",
+    "minValue": "10",
+    "maxValue": "3600",
+    "Suffix": "s"
+  },
+  {
+    "DisplayName": "Updates pro Sekunde",
+    "Description": "Anzahl der Server-Ticks pro Sekunde.",
+    "Category": "Performance",
+    "FieldName": "UpdatesPerSecond",
+    "InputType": "number",
+    "ParamFieldName": "performance.updates_per_second",
+    "DefaultValue": "25",
+    "minValue": "1",
+    "maxValue": "64"
+  },
+  {
+    "DisplayName": "Physik-Schritte pro Update",
+    "Description": "Physik-Simulationsschritte pro Server-Tick.",
+    "Category": "Performance",
+    "FieldName": "PhysicsSteps",
+    "InputType": "number",
+    "ParamFieldName": "performance.physics_steps_per_update",
+    "DefaultValue": "8",
+    "minValue": "1",
+    "maxValue": "32"
+  },
+  {
+    "DisplayName": "Bildschirm-Kompressionslevel",
+    "Description": "Komprimierungsstufe für Screen-Streaming (0 = aus).",
+    "Category": "Performance",
+    "FieldName": "ScreensCompression",
+    "InputType": "number",
+    "ParamFieldName": "performance.screens_compression_level",
+    "DefaultValue": "2",
+    "minValue": "0",
+    "maxValue": "9"
+  }
+]
