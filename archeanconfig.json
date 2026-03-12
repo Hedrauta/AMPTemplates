@@ -82,7 +82,7 @@
   {
     "DisplayName": "Automatic Blacklist",
     "Description": "Automatically blacklist players with bad behavior.",
-    "Category": "Networking",
+    "Category": "Archean",
     "FieldName": "AutoBlacklist",
     "InputType": "checkbox",
     "ParamFieldName": "networking.automatic_blacklist",
@@ -110,7 +110,7 @@
   {
     "DisplayName": "Auto Save Interval",
     "Description": "How often the world is automatically saved.",
-    "Category": "Performance",
+    "Category": "Archean",
     "FieldName": "AutoSaveInterval",
     "InputType": "number",
     "ParamFieldName": "performance.auto_save_interval_seconds",
@@ -122,7 +122,7 @@
   {
     "DisplayName": "Updates Per Second",
     "Description": "Number of server ticks per second.",
-    "Category": "Performance",
+    "Category": "Archean",
     "FieldName": "UpdatesPerSecond",
     "InputType": "number",
     "ParamFieldName": "performance.updates_per_second",
@@ -133,7 +133,7 @@
   {
     "DisplayName": "Physics Steps Per Update",
     "Description": "Number of physics simulation steps per server tick.",
-    "Category": "Performance",
+    "Category": "Archean",
     "FieldName": "PhysicsSteps",
     "InputType": "number",
     "ParamFieldName": "performance.physics_steps_per_update",
@@ -144,7 +144,7 @@
   {
     "DisplayName": "Screens Compression Level",
     "Description": "Compression level for screen streaming (0 = off).",
-    "Category": "Performance",
+    "Category": "Archean",
     "FieldName": "ScreensCompression",
     "InputType": "number",
     "ParamFieldName": "performance.screens_compression_level",
