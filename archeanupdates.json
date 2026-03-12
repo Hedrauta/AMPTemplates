@@ -36,7 +36,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://raw.githubusercontent.com/Hedrauta/AMPTemplates/refs/heads/main/archean_server.ini",
-        "UpdateSourceTarget": "/archean/3557220/Archean-Data/",
+        "UpdateSourceTarget": "./archean/3557220/Archean-Data/",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
