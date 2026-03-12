@@ -14,7 +14,7 @@
   },
   {
     "DisplayName": "Server Name",
-    "Description": "Der öffentliche Name des Servers in der Serverliste.",
+    "Description": "The public name of the server shown in the server list.",
     "Category": "Archean",
     "FieldName": "ServerName",
     "InputType": "text",
@@ -22,8 +22,8 @@
     "DefaultValue": "My Archean Server"
   },
   {
-    "DisplayName": "Max. Spieler",
-    "Description": "Maximale Anzahl gleichzeitiger Spieler.",
+    "DisplayName": "Max Players",
+    "Description": "Maximum number of players that can be connected at the same time.",
     "Category": "Archean",
     "FieldName": "MaxPlayers",
     "InputType": "number",
@@ -33,8 +33,8 @@
     "maxValue": "64"
   },
   {
-    "DisplayName": "Server Passwort",
-    "Description": "Leer lassen für keinen Passwortschutz.",
+    "DisplayName": "Password",
+    "Description": "Leave empty for no password protection.",
     "Category": "Archean",
     "FieldName": "ServerPassword",
     "InputType": "password",
@@ -42,8 +42,8 @@
     "DefaultValue": ""
   },
   {
-    "DisplayName": "Server Online (öffentlich)",
-    "Description": "Ob der Server in der öffentlichen Serverliste erscheinen soll.",
+    "DisplayName": "Server Online",
+    "Description": "Whether the server should appear in the public server list.",
     "Category": "Archean",
     "FieldName": "ServerOnline",
     "InputType": "checkbox",
@@ -52,8 +52,8 @@
     "DefaultValue": "True"
   },
   {
-    "DisplayName": "Remote Verbindungen erlauben",
-    "Description": "Erlaubt externen Spielern, sich zu verbinden.",
+    "DisplayName": "Accept Remote Connections",
+    "Description": "Allow external players to connect to the server.",
     "Category": "Archean",
     "FieldName": "AcceptRemoteConnections",
     "InputType": "checkbox",
@@ -62,8 +62,8 @@
     "DefaultValue": "True"
   },
   {
-    "DisplayName": "Externer Mods-Ordner",
-    "Description": "Optionaler Pfad zu einem externen Mods-Verzeichnis.",
+    "DisplayName": "External Mods Dir",
+    "Description": "Optional path to an external mods directory.",
     "Category": "Archean",
     "FieldName": "ExternalModsDir",
     "InputType": "text",
@@ -71,18 +71,18 @@
     "DefaultValue": ""
   },
   {
-    "DisplayName": "Spielport",
-    "Description": "Der UDP/TCP-Port auf dem der Server lauscht.",
-    "Category": "Netzwerk",
+    "DisplayName": "Listen Port",
+    "Description": "The UDP/TCP port the server listens on.",
+    "Category": "Networking",
     "FieldName": "GamePort",
     "InputType": "number",
     "ParamFieldName": "networking.listen_port",
     "DefaultValue": "8881"
   },
   {
-    "DisplayName": "Automatische Blacklist",
-    "Description": "Spieler mit schlechtem Verhalten automatisch sperren.",
-    "Category": "Archean",
+    "DisplayName": "Automatic Blacklist",
+    "Description": "Automatically blacklist players with bad behavior.",
+    "Category": "Networking",
     "FieldName": "AutoBlacklist",
     "InputType": "checkbox",
     "ParamFieldName": "networking.automatic_blacklist",
@@ -90,8 +90,8 @@
     "DefaultValue": "False"
   },
   {
-    "DisplayName": "Spawn Location",
-    "Description": "Startort für neue Spieler (z.B. 'earth').",
+    "DisplayName": "Spawn",
+    "Description": "Spawn location for new players (e.g. 'earth').",
     "Category": "Archean",
     "FieldName": "Spawn",
     "InputType": "text",
@@ -99,8 +99,8 @@
     "DefaultValue": "earth"
   },
   {
-    "DisplayName": "Welt",
-    "Description": "Name der zu ladenden Welt (leer = Standard).",
+    "DisplayName": "World",
+    "Description": "Name of the world to load. Optional, leave empty for default.",
     "Category": "Archean",
     "FieldName": "World",
     "InputType": "text",
@@ -108,8 +108,8 @@
     "DefaultValue": ""
   },
   {
-    "DisplayName": "Autosave Intervall",
-    "Description": "Wie oft die Welt automatisch gespeichert wird.",
+    "DisplayName": "Auto Save Interval",
+    "Description": "How often the world is automatically saved.",
     "Category": "Performance",
     "FieldName": "AutoSaveInterval",
     "InputType": "number",
@@ -120,9 +120,9 @@
     "Suffix": "s"
   },
   {
-    "DisplayName": "Updates pro Sekunde",
-    "Description": "Anzahl der Server-Ticks pro Sekunde.",
-    "Category": "Archean",
+    "DisplayName": "Updates Per Second",
+    "Description": "Number of server ticks per second.",
+    "Category": "Performance",
     "FieldName": "UpdatesPerSecond",
     "InputType": "number",
     "ParamFieldName": "performance.updates_per_second",
@@ -131,9 +131,9 @@
     "maxValue": "64"
   },
   {
-    "DisplayName": "Physik-Schritte pro Update",
-    "Description": "Physik-Simulationsschritte pro Server-Tick.",
-    "Category": "Archean",
+    "DisplayName": "Physics Steps Per Update",
+    "Description": "Number of physics simulation steps per server tick.",
+    "Category": "Performance",
     "FieldName": "PhysicsSteps",
     "InputType": "number",
     "ParamFieldName": "performance.physics_steps_per_update",
@@ -142,9 +142,9 @@
     "maxValue": "32"
   },
   {
-    "DisplayName": "Bildschirm-Kompressionslevel",
-    "Description": "Komprimierungsstufe für Screen-Streaming (0 = aus).",
-    "Category": "Archean",
+    "DisplayName": "Screens Compression Level",
+    "Description": "Compression level for screen streaming (0 = off).",
+    "Category": "Performance",
     "FieldName": "ScreensCompression",
     "InputType": "number",
     "ParamFieldName": "performance.screens_compression_level",
