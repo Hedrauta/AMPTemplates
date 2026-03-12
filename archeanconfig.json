@@ -1,5 +1,18 @@
 [
   {
+    "DisplayName": "Game Mode",
+    "Description": "The game mode for the server.",
+    "Category": "Archean",
+    "FieldName": "GameMode",
+    "InputType": "enum",
+    "ParamFieldName": "server.game_mode",
+    "DefaultValue": "0",
+    "EnumValues": {
+      "0": "Creative",
+      "1": "Adventure"
+    }
+  },
+  {
     "DisplayName": "Server Name",
     "Description": "Der öffentliche Name des Servers in der Serverliste.",
     "Category": "Archean",

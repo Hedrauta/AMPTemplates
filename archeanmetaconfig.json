@@ -11,7 +11,8 @@
           "accept_remote_connections": "AcceptRemoteConnections",
           "max_simultaneous_players": "MaxPlayers",
           "password": "ServerPassword",
-          "external_mods_dir": "ExternalModsDir"
+          "external_mods_dir": "ExternalModsDir",
+          "game_mode": "GameMode"
         }
       },
       {
