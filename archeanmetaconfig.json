@@ -1,6 +1,6 @@
 [
   {
-    "ConfigFile": "./Archean-data/server.ini",
+    "ConfigFile": "./Archean-data/server/server.ini",
     "ConfigType": "ini",
     "Subsections": [
       {
