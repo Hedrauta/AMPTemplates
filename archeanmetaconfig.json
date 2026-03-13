@@ -12,30 +12,14 @@
           "max_simultaneous_players": "MaxPlayers",
           "password": "ServerPassword",
           "external_mods_dir": "ExternalModsDir",
-          "game_mode": "GameMode"
-        }
-      },
-      {
-        "Heading": "game",
-        "SettingMappings": {
+          "game_mode": "GameMode",
+          "auto_blacklist" : "AutoBlacklist",
+          "spawn": "Spawn",
           "world": "World",
-          "spawn": "Spawn"
-        }
-      },
-      {
-        "Heading": "networking",
-        "SettingMappings": {
-          "listen_port": "GamePort",
-          "automatic_blacklist": "AutoBlacklist"
-        }
-      },
-      {
-        "Heading": "performance",
-        "SettingMappings": {
+          "auto_save_interval": "AutoSaveInterval",
           "updates_per_second": "UpdatesPerSecond",
           "physics_steps_per_update": "PhysicsSteps",
-          "auto_save_interval_seconds": "AutoSaveInterval",
-          "screens_compression_level": "ScreensCompression"
+          "screens_compression_level":"ScreensCompression"
         }
       }
     ]

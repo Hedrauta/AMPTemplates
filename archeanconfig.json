@@ -1,4 +1,14 @@
 [
+  
+  {
+    "DisplayName": "Server Name",
+    "Description": "The public name of the server shown in the server list.",
+    "Category": "Archean",
+    "FieldName": "ServerName",
+    "InputType": "text",
+    "ParamFieldName": "server.server_public_name",
+    "DefaultValue": "My Archean Server"
+  },
   {
     "DisplayName": "Game Mode",
     "Description": "The game mode for the server.",
@@ -11,15 +21,6 @@
       "0": "Creative",
       "1": "Adventure"
     }
-  },
-  {
-    "DisplayName": "Server Name",
-    "Description": "The public name of the server shown in the server list.",
-    "Category": "Archean",
-    "FieldName": "ServerName",
-    "InputType": "text",
-    "ParamFieldName": "server.server_public_name",
-    "DefaultValue": "My Archean Server"
   },
   {
     "DisplayName": "Max Players",
@@ -74,8 +75,9 @@
     "DisplayName": "Listen Port",
     "Description": "The UDP/TCP port the server listens on.",
     "Category": "Networking",
-    "FieldName": "GamePort",
+    "FieldName": "MainGamePort",
     "InputType": "number",
+    "Hidden": true,
     "ParamFieldName": "networking.listen_port",
     "DefaultValue": "8881"
   },
