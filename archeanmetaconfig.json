@@ -9,7 +9,7 @@
           "server_online": "ServerOnline",
           "server_public_name": "ServerName",
           "accept_remote_connections": "AcceptRemoteConnections",
-          "max_simultaneous_players": "MaxPlayers",
+          "max_simultaneous_players": "$MaxUsers",
           "password": "ServerPassword",
           "external_mods_dir": "ExternalModsDir",
           "game_mode": "GameMode"
