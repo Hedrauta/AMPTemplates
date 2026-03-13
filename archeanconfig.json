@@ -26,7 +26,7 @@
     "DisplayName": "Max Players",
     "Description": "Maximum number of players that can be connected at the same time.",
     "Category": "Archean",
-    "FieldName": "MaxPlayers",
+    "FieldName": "$MaxUsers",
     "InputType": "number",
     "ParamFieldName": "server.max_simultaneous_players",
     "DefaultValue": "16",
