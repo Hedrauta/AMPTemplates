@@ -75,11 +75,10 @@
     "DisplayName": "Listen Port",
     "Description": "The UDP/TCP port the server listens on.",
     "Category": "Networking",
-    "FieldName": "MainGamePort",
+    "FieldName": "$MainGamePort",
     "InputType": "number",
     "Hidden": true,
-    "ParamFieldName": "networking.listen_port",
-    "DefaultValue": "{{$MainGamePort}}"
+    "ParamFieldName": "networking.listen_port"
   },
   {
     "DisplayName": "Automatic Blacklist",
