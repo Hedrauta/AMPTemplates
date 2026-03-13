@@ -79,7 +79,7 @@
     "InputType": "number",
     "Hidden": true,
     "ParamFieldName": "networking.listen_port",
-    "DefaultValue": "8881"
+    "DefaultValue": "{{$MainGamePort}}"
   },
   {
     "DisplayName": "Automatic Blacklist",
