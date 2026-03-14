@@ -25,7 +25,8 @@
       {
         "Heading": "networking",
         "SettingMappings": {
-          "automatic_blacklist": "AutoBlacklist"
+          "automatic_blacklist": "AutoBlacklist",
+          "listen_port": "$MainGamePort"
         }
       },
       {
