@@ -3,7 +3,7 @@
   {
     "DisplayName": "Server Name",
     "Description": "The public name of the server shown in the server list.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "ServerName",
     "InputType": "text",
     "ParamFieldName": "server.server_public_name",
@@ -12,7 +12,7 @@
   {
     "DisplayName": "Game Mode",
     "Description": "The game mode for the server.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "GameMode",
     "InputType": "enum",
     "ParamFieldName": "server.game_mode",
@@ -25,7 +25,7 @@
   {
     "DisplayName": "Max Players",
     "Description": "Maximum number of players that can be connected at the same time.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "$MaxUsers",
     "InputType": "number",
     "ParamFieldName": "server.max_simultaneous_players",
@@ -36,7 +36,7 @@
   {
     "DisplayName": "Password",
     "Description": "Leave empty for no password protection.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "ServerPassword",
     "InputType": "password",
     "ParamFieldName": "server.password",
@@ -45,7 +45,7 @@
   {
     "DisplayName": "Server Online",
     "Description": "Whether the server should appear in the public server list.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "ServerOnline",
     "InputType": "checkbox",
     "ParamFieldName": "server.server_online",
@@ -55,7 +55,7 @@
   {
     "DisplayName": "Accept Remote Connections",
     "Description": "Allow external players to connect to the server.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "AcceptRemoteConnections",
     "InputType": "checkbox",
     "ParamFieldName": "server.accept_remote_connections",
@@ -65,7 +65,7 @@
   {
     "DisplayName": "External Mods Dir",
     "Description": "Optional path to an external mods directory.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "ExternalModsDir",
     "InputType": "text",
     "ParamFieldName": "server.external_mods_dir",
@@ -83,7 +83,7 @@
   {
     "DisplayName": "Automatic Blacklist",
     "Description": "Automatically blacklist players with bad behavior.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "AutoBlacklist",
     "InputType": "checkbox",
     "ParamFieldName": "networking.automatic_blacklist",
@@ -93,7 +93,7 @@
   {
     "DisplayName": "Spawn",
     "Description": "Spawn location for new players (e.g. 'earth').",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "Spawn",
     "InputType": "text",
     "ParamFieldName": "game.spawn",
@@ -102,7 +102,7 @@
   {
     "DisplayName": "World",
     "Description": "Name of the world to load. Optional, leave empty for default.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "World",
     "InputType": "text",
     "ParamFieldName": "game.world",
@@ -111,7 +111,7 @@
   {
     "DisplayName": "Auto Save Interval",
     "Description": "How often the world is automatically saved.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "AutoSaveInterval",
     "InputType": "number",
     "ParamFieldName": "performance.auto_save_interval_seconds",
@@ -123,7 +123,7 @@
   {
     "DisplayName": "Updates Per Second",
     "Description": "Number of server ticks per second.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "UpdatesPerSecond",
     "InputType": "number",
     "ParamFieldName": "performance.updates_per_second",
@@ -134,7 +134,7 @@
   {
     "DisplayName": "Physics Steps Per Update",
     "Description": "Number of physics simulation steps per server tick.",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "PhysicsSteps",
     "InputType": "number",
     "ParamFieldName": "performance.physics_steps_per_update",
@@ -145,7 +145,7 @@
   {
     "DisplayName": "Screens Compression Level",
     "Description": "Compression level for screen streaming (0 = off).",
-    "Category": "Archean",
+    "Category": "Archean:rocket_launch",
     "FieldName": "ScreensCompression",
     "InputType": "number",
     "ParamFieldName": "performance.screens_compression_level",
